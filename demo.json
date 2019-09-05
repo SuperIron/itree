@@ -1,0 +1,148 @@
+{
+    "_list": [
+        {
+            "id": 1,
+            "pId": 2
+        },
+        {
+            "id": 2,
+            "pId": 0
+        },
+        {
+            "id": 3,
+            "pId": 0
+        },
+        {
+            "id": 0,
+            "pId": "NULL"
+        }
+    ],
+    "_datas": [],
+    "_id": "id",
+    "_pid": "pId",
+    "_nopid": "NULL",
+    "tree": [
+        {
+            "id": 0,
+            "pId": "NULL",
+            "children": [
+                {
+                    "id": 2,
+                    "pId": 0,
+                    "children": [
+                        {
+                            "id": 1,
+                            "pId": 2,
+                            "children": [],
+                            "level": 3
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": 3,
+                    "pId": 0,
+                    "children": [],
+                    "level": 2
+                }
+            ],
+            "level": 1
+        }
+    ],
+    "levelsMap": {
+        "0": 1,
+        "1": 3,
+        "2": 2,
+        "3": 2
+    },
+    "idsMap": {
+        "0": {
+            "id": 0,
+            "pId": "NULL",
+            "children": [
+                {
+                    "id": 2,
+                    "pId": 0,
+                    "children": [
+                        {
+                            "id": 1,
+                            "pId": 2,
+                            "children": [],
+                            "level": 3
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": 3,
+                    "pId": 0,
+                    "children": [],
+                    "level": 2
+                }
+            ],
+            "level": 1
+        },
+        "1": {
+            "id": 1,
+            "pId": 2,
+            "children": [],
+            "level": 3
+        },
+        "2": {
+            "id": 2,
+            "pId": 0,
+            "children": [
+                {
+                    "id": 1,
+                    "pId": 2,
+                    "children": [],
+                    "level": 3
+                }
+            ],
+            "level": 2
+        },
+        "3": {
+            "id": 3,
+            "pId": 0,
+            "children": [],
+            "level": 2
+        }
+    },
+    "pidsMap": {
+        "0": [
+            {
+                "id": 2,
+                "pId": 0,
+                "children": [
+                    {
+                        "id": 1,
+                        "pId": 2,
+                        "children": [],
+                        "level": 3
+                    }
+                ],
+                "level": 2
+            },
+            {
+                "id": 3,
+                "pId": 0,
+                "children": [],
+                "level": 2
+            }
+        ],
+        "2": [
+            {
+                "id": 1,
+                "pId": 2,
+                "children": [],
+                "level": 3
+            }
+        ]
+    },
+    "ids": [
+        0,
+        2,
+        1,
+        3
+    ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>itree v1.0.4</title>
+    </head>
+    <body>
+        <script src="js/itree.class.js"></script>
+        <script>
+            const list = [
+                { id: 1, pId: 2, rank: 1 },
+                { id: 2, pId: 0, rank: 2 },
+                { id: 3, pId: 0, rank: 1 },
+                { id: 0, pId: 'NULL' },
+            ];
+            const itree = new Itree({
+                list: list,
+                pid: 'pId',
+                nopid: 'NULL',
+                sort: 'rank',
+            });
+            const { tree, levelsMap, idsMap, pidsMap, ids } = itree;
+
+            console.log(itree);
+            // console.log(JSON.stringify(itree));
+        </script>
+    </body>
+</html>
